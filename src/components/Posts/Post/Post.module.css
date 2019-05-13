@@ -1,0 +1,43 @@
+.Post {
+    display: flex;
+    color: gray;
+}
+
+.Post div {
+    flex-flow: row wrap;
+    padding: 5px 8px;
+}
+
+.PostArea p {
+    color: rgb(46, 46, 46);
+}
+
+.Upvotes {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px 0 0 5px;
+}
+
+.LowerSection {
+    display: flex;
+    font-size: 14px;
+}
+
+.LowerSection div {
+    flex-flow: row wrap;
+    padding: 0 7px 0 0;
+    margin: 0 7px 0 0;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.LowerSection i {
+    padding: 0 5px 0 0;
+}
+
+h2:hover, p:hover, .LowerSection div:hover {
+    cursor: pointer;
+}
+
